@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 13, 2020, 9:21:55 PM
+    Author     : DonOzOn
+*/
+.footer{
+    height: 88px;
+    background-color: #303030;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+.link{
+    width:850px;
+    margin-left: auto;
+    padding: 24px 25px;
+    margin-right: auto;
+
+}
+.footer a{
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+.footer-page-counter-item{
+    float: right;
+    border: solid 0 #fff;
+    background: #fff;
+    font-size: 14.4px;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;
+    border-radius: 3px
+}

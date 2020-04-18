@@ -1,0 +1,124 @@
+body{
+    background-color: #E7E7E7;
+    font-family: sans-serif;
+}
+.container{
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.preheader{
+    background: url(../images/preheader.jpg);
+    width: 886px;
+    height: 71px;
+}
+.header{
+    background: url(../images/header.jpg);
+    width: 886px;
+    height: 78px;
+}
+.header h3{
+    color: white;
+    margin: 0;
+    padding-left: 80px;
+}
+.menu{
+    background: url(../images/menu.jpg);
+    width: 886px;
+    height: 32px;
+}
+.menu a{
+    padding-left: 80px;
+    line-height: 32px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+}
+.main{
+    background: url(../images/bg.jpg);
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+.left{
+    width: 70%;
+    height: auto;
+    border-right: 2px dashed lightgrey;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.title{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.title a{
+text-decoration: none;
+color: #42554e;
+}
+.image img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.description{
+    padding-bottom: 40px;
+    font-size: 14px;
+    border-bottom: 1px dotted #e0e0e0;
+}
+.icon1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.information{
+    padding-bottom: 20px;
+    float: right;
+    font-size: 12px;
+    color: #42554e;
+}
+.content{
+    margin-bottom: 20px;
+}
+.numResult{
+    display: flex;
+    margin-bottom: 20px;
+}
+.content img{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+.right{
+    width: 30%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 75px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    padding: 2px;
+}
+.active{
+    color: red !important;
+    pointer-events: none;
+}
+

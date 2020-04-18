@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 13, 2020, 9:19:05 PM
+    Author     : DonOzOn
+*/
+body{
+    /*font-family: 'Times New Roman',Helvetica,Arial,sans-serif;*/
+}
+.header{
+    padding: 15px 30px;
+    background-color: #722f31;
+}
+.header-inner{
+    width: 850px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #722f31;
+}
+.header-inner .img{
+    width: 100px;
+    height:80px; 
+    float: left;
+    /*padding-top: 4px;*/
+    padding-bottom: 2px;
+    margin: 2px 0px 0 0;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+
+    /*padding-left: 35px;*/
+}
+
+.title{
+    color: #fff;
+    text-shadow: none;
+    font-size: 47px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 47px;
+    letter-spacing: 0;
+    /*padding: 6px 0;*/
+    /*padding-top: 8px;*/
+    margin-left: 93.5px;
+    text-transform: none;
+}
+.subtitle{
+    color: #fff;
+    text-shadow: none;
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    padding: 2px 0;
+    margin-left: 93.5px;
+    font-style: normal;
+}
+.nav{
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 0;
+    background-color: #303030;
+    margin-bottom: 0;
+    position: relative;
+    font-size: 16px; 
+}
+.nav-inner{
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+    border-right: 1px grey solid;
+    border-image: linear-gradient(to bottom ,rgb(255,255,255,0.2) 0%, rgb(0,0,0,0.2) 100%) 1;
+    height: 40px;
+}
+.nav-inner ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-inner li{
+    text-align: center;
+    border-left: 1px grey solid;
+    padding: 0 15px;
+    float: left;
+    border-image: linear-gradient(to bottom ,rgb(255,255,255,0.2) 0%, rgb(0,0,0,0.2) 100%) 1;
+
+
+}
+.nav-inner li:first-child{
+    /*    font-weight: bold;*/
+}
+.nav-inner li:last-child{
+    border-right: none;
+}
+.nav-inner li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+.activeHome{
+    font-weight:bold;
+}
+
+.activeContact{
+    font-weight:bold;
+}
+
+.activeGalery{
+    font-weight:bold;
+}

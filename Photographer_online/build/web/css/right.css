@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 13, 2020, 9:28:07 PM
+    Author     : DonOzOn
+*/
+
+.header-right{
+    height: auto;
+    background-color: #303030;
+    margin: 0;
+    padding: 7px 15px;
+    /*width: 100%;*/
+}
+.header-right h4{
+    /*font-family: 'Times New Roman',Helvetica,Arial,sans-serif;*/
+    font-size: 22px;
+    line-height: 38px;
+    color: #ffffff;
+    margin: 0;
+}
+.social{   
+    width: 100%;
+    height: auto;
+    background-color: rgba(170, 64, 67, 0.7);
+}
+.social ul{
+    margin: 0;
+    list-style: none;
+    padding: 8px 14px;
+}
+.social ul li{
+    line-height: 22px;
+        display: flex;
+}
+.social ul li img{
+    margin-top: 3px;
+    height: 16px;
+    width: 16px;
+
+}
+.social ul li a{
+    color: #ffffff;
+        font-family: sans-serif;
+}
+

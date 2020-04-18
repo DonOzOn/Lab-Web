@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2020, 4:39:23 PM
+    Author     : DonOzOn
+*/
+
+.success {
+    color: blue;
+    padding-left: 3px;
+    margin: 0;
+}
+
+.failed {
+    color: red;
+    padding-left: 3px;
+    margin: 0;
+}
+
+.userName {
+    color: blue;
+    font-weight: bold;
+}
+
+#loginFornTitle {
+    color: #100078;
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.fieldLabel {
+    color: #2A577E;
+}
+
+a {
+    text-decoration: none;
+    cursor: default;
+    color: #2A577E;
+}
+
+#timeDisplay {
+    color: red;
+}
+
+.tableHeading {
+    color: #97D2FF;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.labelCol {
+    width: 60%;
+}
+
+.fieldCol {
+    width: 25%;
+}
+
+.fieldAction {
+    width: 20%;
+}
+
+table {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+table {
+    width: 100%;
+}

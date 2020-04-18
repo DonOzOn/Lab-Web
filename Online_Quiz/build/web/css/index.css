@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2020, 4:42:09 PM
+    Author     : DonOzOn
+*/
+
+body {
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    text-align: center;
+    color: #2A577E;
+    font-family: sans-serif;
+    background-repeat: repeat-x;
+}
+
+.main-panel {
+    display: inline-block;
+    width: 550px;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.nav-bar {
+    background-image: url("../images/menu_bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1px;
+}
+
+.nav-bar  ul {
+    text-align: center;
+    display: flex;
+}
+
+.nav-bar  ul  li {
+    margin-right: 12px;
+    color: #61574C !important;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-bar  ul  li a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+    color: #61574C !important;
+    
+}
+
+.main-content {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    padding-bottom: 120px;
+    padding-left: 10px;
+    font-size: 16px !important
+}
