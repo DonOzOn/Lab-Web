@@ -1,2 +1,2 @@
 # Lab-Web
-lab java web
+Java EE , JSP , Servlet , HTML , CSS
